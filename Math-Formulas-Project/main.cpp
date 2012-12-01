@@ -10,10 +10,10 @@
 using namespace std;
 
 int main(){
-
+	
 	cout << "Pythagorean Theorem\n\n"; // "\n" creates the new line character
 	
-	double opp, adj, hyp; // floats are lighter than doubles but dont hold as many digits
+	float opp, adj, hyp, ang; // floats are lighter than doubles but dont hold as many digits
 	
 	for(;;){//ever
 
@@ -25,8 +25,14 @@ int main(){
 	
 	//hyp = sqrt((opp*opp)+(adj*adj)); 
 	hyp = hypotenuse(adj,opp);
+	cout << hyp << "\n";
+
 	// This function is in our formulas header 
-	cout << hyp << "\n\n" << "NEW HYPOTENUSE\n";
+	cout << "Your angle is:\n";
+
+	ang = (angle(adj,opp) / pi) * 180;
+	// This function is in our formulas header 
+	cout << ang << "\n\n" << "NEW HYPOTENUSE\n";
 	}
 
 	system("pause"); // Some DoS Console programming
