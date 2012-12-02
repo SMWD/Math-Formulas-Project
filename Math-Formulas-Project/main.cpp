@@ -12,6 +12,7 @@ using namespace std;
 int main(){
 	
 	cout << "Pythagorean Theorem\n\n"; // "\n" creates the new line character
+	//Hui rules!
 	
 	float opp, adj, hyp, ang; // floats are lighter than doubles but dont hold as many digits
 	
