@@ -12,5 +12,7 @@ float hypotenuse(float adj, float opp){
 float angle(float adj, float opp){
 	return sin(opp/hypotenuse(adj, opp));
 }
-
+float area(float adj, float opp){
+	return (adj*opp)/2;
+}
 #endif

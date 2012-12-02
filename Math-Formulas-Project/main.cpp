@@ -14,7 +14,7 @@ int main(){
 	cout << "Pythagorean Theorem\n\n"; // "\n" creates the new line character
 	//Hui rules!
 	
-	float opp, adj, hyp, ang; // floats are lighter than doubles but dont hold as many digits
+	float opp, adj, hyp, ang, are; // floats are lighter than doubles but dont hold as many digits
 	
 	for(;;){//ever
 
@@ -32,8 +32,18 @@ int main(){
 	cout << "Your angle is:\n";
 
 	ang = (angle(adj,opp) / pi) * 180;
+	
 	// This function is in our formulas header 
-	cout << ang << "\n\n" << "NEW HYPOTENUSE\n";
+	cout << ang << "\n";
+	//This is the area
+	
+	cout << "The area is:\n";
+	are = area(adj,opp);
+	cout << are<< "\n\n" << "NEW HYPOTENUSE\n";
+
+
+	
+
 	}
 	//This is a new Commit because the file changed.
 	system("pause"); // Some DoS Console programming
