@@ -34,7 +34,7 @@ int main(){
 	// This function is in our formulas header 
 	cout << ang << "\n\n" << "NEW HYPOTENUSE\n";
 	}
-
+	//This is a new Commit because the file changed.
 	system("pause"); // Some DoS Console programming
 
 	return 0;
